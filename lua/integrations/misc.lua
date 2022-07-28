@@ -164,6 +164,11 @@ return {
       sp = "none",
    },
 
+   StatusLineNC = {
+      bg = theme.base00,
+      sp = "none",
+   },
+
    -- spell
 
    SpellBad = {
