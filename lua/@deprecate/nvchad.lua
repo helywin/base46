@@ -95,16 +95,7 @@ local defaults = {
    DiagnosticInformation = { fg = green },
 
    -- NvimTree
-   NvimTreeEmptyFolderName = { fg = folder_bg },
-   NvimTreeEndOfBuffer = { fg = darker_black },
-   NvimTreeFolderIcon = { fg = folder_bg },
-   NvimTreeFolderName = { fg = folder_bg },
-   NvimTreeGitDirty = { fg = red },
-   NvimTreeIndentMarker = { fg = grey_fg },
-   NvimTreeNormal = { bg = darker_black },
-   NvimTreeNormalNC = { bg = darker_black },
-   NvimTreeOpenedFolderName = { fg = folder_bg },
-   NvimTreeGitIgnored = { fg = light_grey },
+   
 
    NvimTreeWinSeparator = {
       fg = darker_black,

@@ -1,69 +1,98 @@
-local theme = require("base46").get_colors "base_16"
+local theme = require("base46").get_colors("base_16")
+local colors = require("base46").get_colors("base_30")
 
 return {
+ -- gitsigns
+  DiffAdd = {
+    fg = colors.blue,
+  },
 
-   -- git commits
-   gitcommitOverflow = {
-      fg = theme.base08,
-   },
+  DiffAdded = {
+    fg = colors.green,
+  },
 
-   gitcommitSummary = {
-      fg = theme.base08,
-   },
+  DiffChange = {
+    fg = colors.light_grey,
+  },
 
-   gitcommitComment = {
-      fg = theme.base03,
-   },
+  DiffChangeDelete = {
+    fg = colors.red,
+  },
 
-   gitcommitUntracked = {
-      fg = theme.base03,
-   },
+  DiffModified = {
+    fg = colors.orange,
+  },
 
-   gitcommitDiscarded = {
-      fg = theme.base03,
-   },
+  DiffDelete = {
+    fg = colors.red,
+  },
 
-   gitcommitSelected = {
-      fg = theme.base03,
-   },
+  DiffRemoved = {
+    fg = colors.red,
+  },
 
-   gitcommitHeader = {
-      fg = theme.base0E,
-   },
+  -- git commits
+  gitcommitOverflow = {
+    fg = theme.base08,
+  },
 
-   gitcommitSelectedType = {
-      fg = theme.base0D,
-   },
+  gitcommitSummary = {
+    fg = theme.base08,
+  },
 
-   gitcommitUnmergedType = {
-      fg = theme.base0D,
-   },
+  gitcommitComment = {
+    fg = theme.base03,
+  },
 
-   gitcommitDiscardedType = {
-      fg = theme.base0D,
-   },
+  gitcommitUntracked = {
+    fg = theme.base03,
+  },
 
-   gitcommitBranch = {
-      fg = theme.base09,
-      bold = true,
-   },
+  gitcommitDiscarded = {
+    fg = theme.base03,
+  },
 
-   gitcommitUntrackedFile = {
-      fg = theme.base0A,
-   },
+  gitcommitSelected = {
+    fg = theme.base03,
+  },
 
-   gitcommitUnmergedFile = {
-      fg = theme.base08,
-      bold = true,
-   },
+  gitcommitHeader = {
+    fg = theme.base0E,
+  },
 
-   gitcommitDiscardedFile = {
-      fg = theme.base08,
-      bold = true,
-   },
+  gitcommitSelectedType = {
+    fg = theme.base0D,
+  },
 
-   gitcommitSelectedFile = {
-      fg = theme.base0B,
-      bold = true,
-   },
+  gitcommitUnmergedType = {
+    fg = theme.base0D,
+  },
+
+  gitcommitDiscardedType = {
+    fg = theme.base0D,
+  },
+
+  gitcommitBranch = {
+    fg = theme.base09,
+    bold = true,
+  },
+
+  gitcommitUntrackedFile = {
+    fg = theme.base0A,
+  },
+
+  gitcommitUnmergedFile = {
+    fg = theme.base08,
+    bold = true,
+  },
+
+  gitcommitDiscardedFile = {
+    fg = theme.base08,
+    bold = true,
+  },
+
+  gitcommitSelectedFile = {
+    fg = theme.base0B,
+    bold = true,
+  },
 }
